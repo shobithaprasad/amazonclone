@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+}
+.header{
+    
+    height: 60px;
+    background-color: black;
+    display: flex;
+}
+.nav{
+    height: 60px;
+    width: 98%;
+    margin: auto;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.border{
+    border: 2px transparent red ;
+}
+.border:hover{
+    border:2px solid rgb(245, 149, 6);
+}
+.nav-logo{
+    height: 100%;
+    width:120px;
+    display: flex;
+}
+
+.nav-location{
+   align-content: center;
+    color: white;
+    width: 100px;
+    margin: 5px;;
+}
+.location-first{
+ color:rgb(154, 152, 152);
+ margin-left: 1rem;
+ font-size: 12px;   
+}
+.location-sub{
+    display: flex;
+}
+.location-second{
+font-size: 14px;
+margin-left:.3rem;
+}
+.nav-search{
+
+    align-items: center;
+    display: flex;
+   height:40px;
+   width: 500px;
+   justify-content: space-evenly;
+ 
+}
+.nav-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: rgb(238, 235, 235);
+    font-size: 12px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: none;
+}
+.nav-input{
+
+   border:none;
+   height: 40px;
+   width: 100%;
+   font-size: 1rem;
+   
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 190, 85);
+    height: 40px;
+    border-top-right-radius: 4px; 
+    border-bottom-right-radius: 4px;
+}
+.nav-lang{
+    width:80px;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.lang-flag img{
+    height: 20px;
+    width: 30px;
+    background-color: black;
+    border: none;
+    margin-top: .3rem;
+}
+.lang-opt{
+    margin-left: .1rem;
+    height: 20px;
+    font-weight: 600;
+    border:none;
+    background-color: black;
+    color: white;
+}
+.nav-user{
+    height: 50px;
+    width: 130px;
+    color: white;
+    justify-content: center;
+    margin-top: .5rem;
+    justify-items: center;
+    padding: 5px;
+    background-color: black;
+}
+.user-acc-list{
+    background-color: black;
+    color:#ffffff;
+    border: none;
+}
+.nav-orders{
+    height: 50px;
+    width: 90px;
+    color: white;
+    justify-content: center;
+    margin-top: .5rem;
+    justify-items: center;
+    padding: 5px;
+}
+.user-signin,.user-orders{
+    font-size: 12px;
+}
+.nav-cart {
+    height: 50px;
+    width: 90px;
+    display: flex;
+   font-weight: 500;
+   font-size:16px;
+    color:aliceblue;
+   align-items: baseline;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.menu{
+   
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    font: 14px Arial, sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+.menu-all{
+    height: 39px;
+    width: 60px;
+    color: #ffffff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 900;
+}
+.menu-all-option{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+}
+.menu-fresh{
+width:66px;
+height: 28px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 8px 9px;
+margin: 5px 0 6px;
+
+}
+.menu-fresh-opt{
+text-align: center;
+justify-content: center;
+background-color: #222f3d;
+color: #ffffff;
+width:64px;
+border:none;
+}
+.sub-menu{
+   
+    text-align: center;
+    align-content: center;
+justify-content: left;
+margin: 5px 0 6px;
+width:70%;
+
+}
+.sub-menu p{
+    display: inline;
+    padding: 4px 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    float: left;
+}
+.menu-adds{
+    align-content: center;
+    justify-content: left;
+    font-size: 14px;
+    color: green;
+    font-weight: bold;
+}
+.banner{
+    background-image: url("/image/hero_image.jpg");
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-sub{
+    height: 30px;
+    background-color:white;
+   justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 5rem;
+    display: flex;
+    margin: 10px;
+  }
+  .banner-sub a{
+    color: #001785;
+  }
+ .box{
+    width: 200px;
+    height: 380px;
+    border: 1px black solid;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: .5rem;
+    
+ }
+ .panel{
+    display: grid;
+    background-color: #e2e7e6;
+ }
+ .box-img{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+ }
+ .box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ .box-content p{
+    color: #007185;
+ }
